@@ -1,11 +1,14 @@
 ---
-date: '2017-04-01'
-title: 'Developer'
-company: 'Scout Studio'
-location: 'Northeastern University'
-range: 'Spring 2016 & 2017'
-url: 'https://web.northeastern.edu/scout/'
+date: '2023-08-01'
+title: 'Data Science Project Lead'
+company: 'Biokind Analytics'
+location: 'Champaign, IL'
+range: 'August 2023 - February 2024'
+url: ''
 ---
 
-- Collaborated with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community
-- Built and delivered technical solutions according to stakeholder business requirements
+- Led a subteam of 5 in collaborating with healthcare nonprofits, delegating tasks, and organizing meetings
+- Conducted data-driven analysis in Python of geographic and demographic trends among datasets of 40,000 cancer patients to optimize treatment using **pandas**, **NumPy**, scikit-learn, and **statsmodels** libraries
+- Presented and worked with a nonprofit to integrate data-backed solutions that will manage flow of patients
+
+![Biokind](../images/bio.png)

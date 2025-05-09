@@ -1,12 +1,15 @@
 ---
-date: '2015-12-21'
-title: 'Creative Technologist Co-op'
-company: 'MullenLowe'
-location: 'Boston, MA'
-range: 'July - December 2015'
-url: 'https://us.mullenlowe.com/'
+date: '2021-05-01'
+title: 'Event Server'
+company: 'SBR Events Group'
+location: 'Wood Dale, IL'
+range: 'May 2021 - August 2024'
+url: ''
 ---
 
-- Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery
-- Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness
-- Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more
+- Led event setup and teardown operations for 50+ events, implementing standardized procedures that reduced transition time
+- Optimized food and beverage distribution workflows, serving 200+ guests per event with 98% satisfaction ratings
+- Trained 15+ new staff members in event protocols and customer service standards
+- Coordinated with vendors and clients to ensure seamless execution of event specifications
+
+![Sweet Baby Rays](../images/sbr.jpg)

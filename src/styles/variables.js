@@ -8,12 +8,12 @@ const variables = css`
     --lightest-navy: #233554;
     --navy-shadow: rgba(2, 12, 27, 0.7);
     --dark-slate: #495670;
-    --slate: #8892b0;
-    --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
+    --slate: #ffa500; /* Bright orange */
+    --light-slate: #ff8c00; /* Darker orange */
+    --lightest-slate: #ffd700;
     --white: #e6f1ff;
-    --green: #64ffda;
-    --green-tint: rgba(100, 255, 218, 0.1);
+    --green: #ffa500; /* Replaced green with orange */
+    --green-tint: rgba(255, 165, 0, 0.05); /* Orange tint (10% opacity) */
     --pink: #f57dff;
     --blue: #57cbff;
 

@@ -1,13 +1,14 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2023-11-01'
+title: 'Embedded Software Engineer'
+company: 'Illini Electric Motorsports'
+location: 'Champaign, IL'
+range: 'November 2023 - Present'
+url: ''
 ---
 
-- Developed and styled interactive web applications for Apple Music using Ember and SCSS
-- Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integrations
-- Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback
-- Contributed extensively to the creation of MusicKit JS, a public-facing JavaScript SDK for embedding Apple Music players into web applications
+- Developed a torque vectoring control model in **MATLAB/Simulink** to increase cornering performance, helping the team place 7th out of 70 teams in the FSAE EV collegiate competition
+- Leveraged **CARSIM** simulation software to validate and fine-tune the torque vectoring algorithm, adjusting yaw moment calculations according to lateral acceleration and yaw rate gain
+- Programmed embedded STM32 microcontroller library algorithms to control the car’s state machine, safety features, and interactions with external devices and sensors, while reporting to BMS data dashboard
+- Wrote CAN bus test code in **C** to more efficiently troubleshoot the electric car's steering wheel board
+  ![FSAE Car](../images/iem.jpg)
