@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ::selection {
-    background-color: var(--lightest-navy);
+    background-color: #000000;
     color: var(--lightest-slate);
   }
 
@@ -74,7 +74,7 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--navy);
+    background-color: #000000;;
     color: var(--slate);
     font-family: var(--font-sans);
     font-size: var(--fz-xl);
@@ -213,7 +213,7 @@ const GlobalStyle = createGlobalStyle`
       width: 300px;
       height: 1px;
       margin-left: 20px;
-      background-color: var(--lightest-navy);
+      background-color: #000000;;
 
       @media (max-width: 1080px) {
         width: 200px;
@@ -303,7 +303,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     & > code {
-      background-color: var(--light-navy);
+      background-color: #000000;
       color: var(--white);
       font-size: var(--fz-sm);
       border-radius: var(--border-radius);
@@ -346,7 +346,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   hr {
-    background-color: var(--lightest-navy);
+    background-color: #000000;
     height: 1px;
     border-width: 0px;
     border-style: initial;
@@ -372,8 +372,8 @@ const GlobalStyle = createGlobalStyle`
 
     &:hover,
     &:focus {
-      background-color: var(--green);
-      color: var(--navy);
+      background-color: #000000;;
+      color: #000000;;
       top: 0;
       left: 0;
       width: auto;
