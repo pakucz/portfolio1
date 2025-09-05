@@ -13,7 +13,7 @@ const variables = css`
     --lightest-slate: #ffd700;
     --white: #e6f1ff;
     --green: #ffa500; /* Replaced green with orange */
-    --green-tint: rgba(255, 165, 0, 0.05); /* Orange tint (10% opacity) */
+    --green-tint: rgba(255, 165, 0, 0); /* Orange tint (10% opacity) */
     --pink: #f57dff;
     --blue: #57cbff;
 

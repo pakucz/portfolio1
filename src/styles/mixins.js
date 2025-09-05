@@ -77,7 +77,7 @@ const mixins = {
       position: relative;
       bottom: 0.37em;
       background-color: var(--green);
-      opacity: 0.5;
+      opacity: 0;
       @media (prefers-reduced-motion: no-preference) {
         transition: var(--transition);
       }

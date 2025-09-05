@@ -63,6 +63,7 @@ const StyledPic = styled.div`
     width: 100%;
     border-radius: var(--border-radius);
     background-color: var(--green);
+    transition: transform 0.25s ease;
 
     &:hover,
     &:focus {
@@ -72,44 +73,40 @@ const StyledPic = styled.div`
       &:after {
         transform: translate(8px, 8px);
       }
-
-      .img {
-        filter: none;
-        mix-blend-mode: normal;
-      }
     }
 
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
-      transition: var(--transition);
+      display: block;
+      width: 100%;
+      height: auto;
+      z-index: 1;
+
+      /* 🔑 remove these: */
+      mix-blend-mode: normal;
+      filter: none;
+      transition: none;
     }
 
-    &:before,
-    &:after {
+    /* 🔑 remove the color overlay completely */
+    &::before {
+      content: none;
+    }
+
+    /* keep the decorative frame effect */
+    &::after {
       content: '';
       display: block;
       position: absolute;
       width: 100%;
       height: 100%;
       border-radius: var(--border-radius);
-      transition: var(--transition);
-    }
-
-    &:before {
-      top: 0;
-      left: 0;
-      background-color: var(--navy);
-      mix-blend-mode: screen;
-    }
-
-    &:after {
       border: 2px solid var(--green);
       top: 14px;
       left: 14px;
       z-index: -1;
+      transition: transform 0.25s ease;
     }
   }
 `;
@@ -133,17 +130,31 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>
-              Hello, I'm Patrick Kuczun, a third year computer science student attending the
-              University of Illinois at Urbana-Champaign. I am passionate about applying technology
-              to solve complex, real-world problems. Feel free to connect with me to learn more
-              about my interests and experience!
+            <div>
+              <p>
+                I grew up in the Chicagoland area and moved to UIUC in 2022 to study Computer
+                Science, where I’ll be graduating in 2026. I’ve had the chance to work on projects
+                ranging from torque vectoring control models for electric vehicles to fintech
+                systems at Capital One in downtown Chicago.
+              </p>
+
+              <p>
+                These experiences have pushed me to think critically about how technology can solve
+                complex, real-world problems. Over the course of my college career, I've met a lot
+                of awesome people and wanted to share it with you!
+              </p>
+
+              <p>
+                Outside of school and work, you can usually find me climbing, playing tennis,
+                running, or experimenting with new cooking ideas.
+              </p>
+
               <img
                 src={UIUCLogo}
                 alt="UIUC Logo"
                 style={{ height: '250px', marginLeft: '10px', verticalAlign: 'middle' }}
               />
-            </p>
+            </div>
           </div>
         </StyledText>
 

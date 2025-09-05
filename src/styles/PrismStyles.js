@@ -220,7 +220,7 @@ const PrismStyles = css`
     cursor: help;
   }
   .namespace {
-    opacity: 0.7;
+    opacity: 0;
   }
 `;
 
